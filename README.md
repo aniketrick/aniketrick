@@ -22,6 +22,9 @@ I specialize in architecting secure, highly available cloud-native applications 
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### 🚀 Featured Projects
-* **[Cloud-Native Serverless Task Management Platform](https://github.com/aniketrick/cloud-task-manager):** A highly available, serverless platform built with AWS Lambda, API Gateway, and a React frontend hosted on S3/CloudFront. Provisioned via Terraform (IaC) with automated CI/CD pipelines using GitHub Actions and Docker. Features a secure DynamoDB NoSQL data layer and comprehensive CloudWatch observability. 
+* **[Cloud-Native Serverless Task Management Platform](https://github.com/aniketrick/cloud-task-manager):** A highly available, serverless platform built with AWS Lambda, API Gateway, and a React frontend hosted on S3/CloudFront. Provisioned via Terraform (IaC) with automated CI/CD pipelines using GitHub Actions and Docker. Features a secure DynamoDB NoSQL data layer and comprehensive CloudWatch observability.
+### **Current Live API:**
+`https://lmr5zv0tn6.execute-api.eu-west-2.amazonaws.com/tasks`
+
 * **[Cloud-Native Interactive Portfolio](https://github.com/aniketrick/aniket-cloud-portfolio):** A responsive SPA built with React and Tailwind CSS, featuring a zero-touch CI/CD pipeline using GitHub Actions for automated deployment to AWS S3 and CloudFront. 
 * **[Book Exchange Web App](https://github.com/aniketrick/book-exchange-app):** A full-stack community platform built with Laravel and React, utilizing Tesseract OCR to automatically extract book details from cover images and a custom credit-based exchange system. 
