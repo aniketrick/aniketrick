@@ -6,7 +6,8 @@ I specialize in architecting secure, highly available cloud-native applications 
 
 ### 👨‍💻 What I'm Up To
 * 🎓 I’m currently pursuing an M.Sc. in Computer Science at the University of Liverpool.
-* 🔭 I’m currently building a **Cloud-Native Serverless Task Management Platform** using AWS Lambda, API Gateway, and Terraform.
+* 🔭 I recently deployed a **Full-Stack Serverless Task Manager** using AWS Lambda, API Gateway, and Terraform.
+* 🚀 I’m currently engineering an **Automated CI/CD Pipeline via GitHub Actions** to enable zero-touch deployments for my serverless architectures.
 * 🌱 I’m continuously refining my skills in **AWS, Docker, and GitHub Actions**.
 * 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/aniket-chakraborty07) or [Email](mailto:aniket07chakraborty@gmail.com).
 
@@ -22,9 +23,16 @@ I specialize in architecting secure, highly available cloud-native applications 
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### 🚀 Featured Projects
-* **[Cloud-Native Serverless Task Management Platform](https://github.com/aniketrick/cloud-task-manager):** A highly available, serverless platform built with AWS Lambda, API Gateway, and a React frontend hosted on S3/CloudFront. Provisioned via Terraform (IaC) with automated CI/CD pipelines using GitHub Actions and Docker. Features a secure DynamoDB NoSQL data layer and comprehensive CloudWatch observability.
-### **Current Live API:**
-`https://lmr5zv0tn6.execute-api.eu-west-2.amazonaws.com/tasks`
+* **[CloudTasks: Serverless Task Management Platform](https://github.com/aniketrick/cloud-task-manager):** A highly available, 100% serverless platform built with AWS Lambda, API Gateway, and a React frontend hosted securely on S3 and CloudFront (CDN). The entire infrastructure is provisioned as code using Terraform (IaC), featuring a secure DynamoDB NoSQL data layer and CORS-enabled API routing. 
+  * **Live Demo:** `https://d311lx1kf608st.cloudfront.net/`
+  * **Backend API:** `https://lmr5zv0tn6.execute-api.eu-west-2.amazonaws.com/tasks`
 
 * **[Cloud-Native Interactive Portfolio](https://github.com/aniketrick/aniket-cloud-portfolio):** A responsive SPA built with React and Tailwind CSS, featuring a zero-touch CI/CD pipeline using GitHub Actions for automated deployment to AWS S3 and CloudFront. 
+
 * **[Book Exchange Web App](https://github.com/aniketrick/book-exchange-app):** A full-stack community platform built with Laravel and React, utilizing Tesseract OCR to automatically extract book details from cover images and a custom credit-based exchange system. 
+
+### ⚡ What I'm Building Next
+
+* **Workflow Automation:** Integrating GitHub Actions into my CloudTasks repository so that every `git push` automatically runs Terraform apply and syncs the React build to S3.
+* **Identity & Access Management:** Implementing AWS Cognito to add secure user authentication (Sign Up / Log In) to the serverless task manager.
+* **Custom DNS Routing:** Utilizing AWS Route 53 and AWS Certificate Manager (ACM) to attach custom domains to my CloudFront distributions.
